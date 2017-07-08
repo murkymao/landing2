@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 1280px;
-    margin: 50px auto ;
+    margin: 50px auto;
     background-color: #fff;
     background: url("../img/header_background_gradient.png") no-repeat;
     background-size: 100%;
@@ -24,6 +24,32 @@ body {
 header {
     height: 490px;
     padding: 60px 90px;
+}
+
+button {
+    border: none;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+header button {
+    margin-top: 40px;
+    background-color: #2a704f;
+    padding: 10px 20px;
+}
+
+h1, h2 {
+    color: #8d9491;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 45px;
 }
 
 .content {
@@ -36,9 +62,11 @@ header {
     font-size: 74px;
     color: #b7babb;
     padding-left: 90px;
-
 }
 
+.header-info{
+    padding-top: 105px;
+}
 .header-navigation-block ul li {
     float: left;
     font-family: "Myriad Pro", sans-serif;
