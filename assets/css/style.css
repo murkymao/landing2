@@ -8,10 +8,14 @@ body {
     background-color: #282828;
 }
 
+@font-face {
+    font-family: "Mrs Eaves OT";
+    src: url("../font/Mrs_Eaves_OT_Italic.otf");
+}
+
 .container {
-    padding: 130px;
+    padding: 60px 130px;
     width: 1280px;
-    height: 100%;
     margin: auto;
     background-color: #fff;
     background: url("../img/header_background_gradient.png") no-repeat;
@@ -23,5 +27,53 @@ body {
 }
 
 .header-title {
+    font-family: "Mrs Eaves OT";
+    font-style: italic;
+    font-size: 118px;
+    color: #b7babb;
+    padding-left: 90px;
 
+}
+
+header > section {
+
+}
+
+.header-navigation-block ul li{
+    float: left;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+.header-navigation-block ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-navigation-block ul li:last-child {
+    padding-right: 0;
+}
+
+.column {
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.column-2:nth-child(2) {
+    display: block;
+    content: ' ';
+    font-size: 0;
+    clear: right;
+}
+
+.clearfix:after {
+    display: block;
+    content: ' ';
+    font-size: 0;
+    clear: both;
 }
