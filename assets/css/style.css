@@ -39,10 +39,6 @@ header {
 
 }
 
-header > section {
-
-}
-
 .header-navigation-block ul li {
     float: left;
     font-family: "Myriad Pro", sans-serif;
@@ -76,6 +72,10 @@ header > section {
 }
 
 .header-logo {
+    position: relative;
+    top: 70px;
+    left: 10px;
     width: 330px;
     height: 330px;
+
 }
