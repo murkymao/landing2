@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #282828;
+}
+
+.container {
+    padding: 130px;
+    width: 1280px;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+    background: url("../img/header_background_gradient.png") no-repeat;
+    background-size: 100% 490px;
+}
+
+.content {
+
+}
+
+.header-title {
+
+}
