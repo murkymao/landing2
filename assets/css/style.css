@@ -52,21 +52,35 @@ h2 {
     font-size: 45px;
 }
 
+h3 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 38px;
+}
+
+p {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+}
+
 .content {
     background-color: #FFFFFF;
+    height: 1100px;
+    padding-top: 95px;
+
 }
 
 .header-title {
-    font-family: "Mrs Eaves OT";
+    font-family: "Mrs Eaves OT", Serif;
     font-style: italic;
     font-size: 74px;
     color: #b7babb;
     padding-left: 90px;
 }
 
-.header-info{
+.header-info {
     padding-top: 105px;
 }
+
 .header-navigation-block ul li {
     float: left;
     font-family: "Myriad Pro", sans-serif;
@@ -92,6 +106,10 @@ h2 {
     width: 50%;
 }
 
+.column-3 {
+    width: 25%;
+}
+
 .clearfix:after {
     display: block;
     content: ' ';
@@ -105,4 +123,23 @@ h2 {
     left: 10px;
     width: 330px;
     height: 330px;
+}
+
+.border {
+    border-bottom: 3px solid #b7babb;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.border:nth-child(2) {
+    border-top: 3px solid #b7babb;
+    border-left: 3px solid #b7babb;
+    border-right: 3px solid #b7babb;
+    border-bottom: none;
+}
+.ipad {
+    text-align: center;
+    margin: 60px;
+    padding: 0 20px;
+    color: #4f4f4f;
 }
