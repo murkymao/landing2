@@ -21,11 +21,22 @@ body {
     background-size: 100%;
 }
 
-.container-2 {
-    width: 1050px;
-    margin: auto;
-    background: url("../img/header_background_gradient.png") no-repeat;
-    background-size: 100%;
+.left-arrow {
+    position: absolute;
+    bottom: 200px;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.right-arrow {
+    position: absolute;
+    bottom: 200px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+
 }
 
 header {
@@ -70,6 +81,12 @@ h4 {
     color: #4f4f4f;
 }
 
+h5 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
 p {
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
@@ -77,7 +94,7 @@ p {
 
 .content {
     background-color: #FFFFFF;
-    height: 1700px;
+    height: 1625px;
     padding-top: 95px;
     padding-left: 125px;
     padding-right: 125px;
@@ -87,7 +104,7 @@ p {
 .header-title {
     font-family: "Mrs Eaves OT", sans-serif;
     font-style: italic;
-    font-size: 74px;
+    font-size: 118px;
     color: #b7babb;
     padding-left: 90px;
 }
@@ -181,6 +198,7 @@ p {
     text-decoration: none;
     color: #4f4f4f;
 }
+
 .login {
     margin: 20px 0 0 0;
     width: 470px;
@@ -200,10 +218,70 @@ p {
     font-family: "Myriad Pro", sans-serif;
     font-size: 16px;
     background-color: #444444;
-    padding: 5px;
+    margin-left: 10px;
+    padding: 10px 20px;
 }
 
 .login input {
+    width: 155px;
     margin: 30px 0 0 10px;
     padding: 5px 0;
+}
+
+.email {
+    margin: 20px 0 0 65px;
+    width: 470px;
+    height: 110px;
+    background-color: #01d4f3;
+    font-family: "Myriad Pro", sans-serif;
+    border-radius: 5px;
+}
+
+.email p {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+
+.email button {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    background-color: #029bb1;
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+
+.email input {
+    width: 256px;
+    margin: 30px 0 0 25px;
+    padding: 5px 0;
+}
+
+footer {
+    height: 700px;
+    margin: 0 125px;
+}
+
+footer ul li {
+    padding: 5px;
+    list-style-type: none;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+
+}
+
+footer ul li a, p {
+    text-decoration: none;
+    color: #b7babb;
+}
+
+footer span {
+    color: #FFFFFF;
+}
+
+.copy {
+    margin-top: 0;
+    margin-right: 100px;
+    text-align: right;
 }
