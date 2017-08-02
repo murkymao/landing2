@@ -27,7 +27,6 @@ body {
     left: 70px;
     width: 50px;
     height: 50px;
-
 }
 
 .right-arrow {
@@ -36,7 +35,6 @@ body {
     right: 70px;
     width: 50px;
     height: 50px;
-
 }
 
 header {
@@ -98,7 +96,6 @@ p {
     padding-top: 95px;
     padding-left: 125px;
     padding-right: 125px;
-
 }
 
 .header-title {
@@ -161,7 +158,6 @@ p {
     border-bottom: 3px solid #b7babb;
     text-align: center;
     padding-top: 25px;
-
 }
 
 .border:nth-child(2) {
@@ -261,6 +257,7 @@ p {
 footer {
     height: 700px;
     margin: 0 125px;
+    padding: 0 40px;
 }
 
 footer ul li {
