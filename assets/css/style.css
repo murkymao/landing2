@@ -23,21 +23,22 @@ body {
 
 .left-arrow {
     position: absolute;
-    top: 330px;
-    left: 120px;
+    top: 270px;
+    left: 30px;
     width: 50px;
     height: 50px;
 }
 
 .right-arrow {
     position: absolute;
-    top: 330px;
-    right: 120px;
+    top: 270px;
+    right: 30px;
     width: 50px;
     height: 50px;
 }
 
 header {
+    position: relative;
     height: 490px;
     padding: 60px 125px;
 }
