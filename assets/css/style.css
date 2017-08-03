@@ -237,6 +237,11 @@ p {
     padding: 10px 20px;
 }
 
+.login button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .login input {
     width: 155px;
     margin: 30px 0 0 10px;
@@ -265,6 +270,11 @@ p {
     background-color: #029bb1;
     margin-left: 50px;
     padding: 10px 20px;
+}
+
+.email button a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .email input {
