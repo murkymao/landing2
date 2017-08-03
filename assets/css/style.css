@@ -56,6 +56,11 @@ header button {
     padding: 10px 20px;
 }
 
+header button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 h1, h2 {
     color: #8d9491;
     font-family: "Myriad Pro", sans-serif;
@@ -164,6 +169,13 @@ p {
     border-bottom: 3px solid #b7babb;
     text-align: center;
     padding-top: 25px;
+}
+
+.border:hover {
+    border-top: 3px solid #b7babb;
+    border-left: 3px solid #b7babb;
+    border-right: 3px solid #b7babb;
+    border-bottom: none;
 }
 
 .border:nth-child(2) {
