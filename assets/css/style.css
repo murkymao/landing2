@@ -51,10 +51,15 @@ button {
     color: #FFFFFF;
 }
 
+button:hover {
+    opacity: 1.0;
+}
+
 header button {
     margin-top: 40px;
     background-color: #2a704f;
     padding: 10px 20px;
+    opacity: 0.8;
 }
 
 header button a {
