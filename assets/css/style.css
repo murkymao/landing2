@@ -124,6 +124,11 @@ p {
     text-decoration: none;
 }
 
+.header-navigation-block ul li a:hover {
+    color: #e67624;
+    text-decoration: none;
+}
+
 .header-navigation-block ul li:last-child {
     padding-right: 0;
 }
