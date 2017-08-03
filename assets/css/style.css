@@ -45,6 +45,7 @@ header {
 
 button {
     border: none;
+    border-radius: 3px;
     font-family: "Myriad Pro", sans-serif;
     font-size: 23px;
     color: #FFFFFF;
